@@ -27,6 +27,22 @@
      .image_icon:hover {
 	   filter: invert(100%);
 	 }
+	 .container {
+			padding: 8px;
+			min-width: 204px;
+			max-width: 784px;
+			background-color: lightgrey;
+			border-radius: 32px;
+		 }
+	 @media only screen and (max-width: 400px) {
+		 .container {
+			padding: 8px;
+			margin: auto;
+			width: 204px;
+			background-color: lightgrey;
+			border-radius: 32px;
+		 }
+	 }
    </style>
    <body style="background: #83a4d4; background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4); background: linear-gradient(to right, #b6fbff, #83a4d4);">
    <header>
@@ -35,16 +51,16 @@
 	<div style="padding: 8px; margin: auto; min-width: 220px; max-width: 800px; background-color: #ffffff; border-radius: 32px;">
 	  <h1>Icons</h1>
 	  <p>1. Schmelztiegel</p>
-	    <div style="padding: 8px; min-width: 204px; max-width: 784px; background-color: lightgrey; border-radius: 32px;">
+	    <div class="container">
 		  <image class="image_icon" style="width: 100px; height: 100px;" src="assets/schmelztiegel.png" />
 	      <image class="image_icon" style="width: 125px; height: 125px;" src="assets/schmelztiegel.png" />
 	      <image class="image_icon" style="width: 150px; height: 150px;" src="assets/schmelztiegel.png" />
 	      <image class="image_icon" style="width: 175px; height: 175px;" src="assets/schmelztiegel.png" />
 	      <image class="image_icon" style="width: 200px; height: 200px;" src="assets/schmelztiegel.png" />
 	    </div>
-	  <div style="padding: 8px; margin: auto; min-width: 220px; max-width: 800px; background-color: #ffffff; border-radius: 32px;">
+		<div style="padding: 8px; margin: auto; min-width: 220px; max-width: 800px; background-color: #ffffff; border-radius: 32px;">
 	  <p>2. Fahrzeug</p>
-		<div style="padding: 8px; min-width: 204px; max-width: 784px; background-color: lightgrey; border-radius: 32px;">
+		<div class="container">
 		  <image class="image_icon" style="width: 100px; height: 100px;" src="assets/car.png" />
 		  <image class="image_icon" style="width: 125px; height: 125px;" src="assets/car.png" />
 		  <image class="image_icon" style="width: 150px; height: 150px;" src="assets/car.png" />
@@ -54,7 +70,7 @@
 	  </div>
 	  <div style="padding: 8px; margin: auto; min-width: 220px; max-width: 800px; background-color: #ffffff; border-radius: 32px;">
 	  <p>3. Härten</p>
-		<div style="padding: 8px; min-width: 204px; max-width: 784px; background-color: lightgrey; border-radius: 32px;">
+		<div class="container">
 		  <image class="image_icon" style="width: 100px; height: 100px;" src="assets/haerten.png" />
 		  <image class="image_icon" style="width: 125px; height: 125px;" src="assets/haerten.png" />
 		  <image class="image_icon" style="width: 150px; height: 150px;" src="assets/haerten.png" />
